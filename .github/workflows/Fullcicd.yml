@@ -6,7 +6,7 @@ jobs:
   steps:
    - name: Install node JS version 12
      uses: actions/setup-node@v2
-        with:
-          node-version: "12"
-  - name: Verify node version
-    run: node --version
+     with:
+       node-version: "12"
+   - name: Verify node version
+     run: node --version
