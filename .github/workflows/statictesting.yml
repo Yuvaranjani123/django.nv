@@ -108,7 +108,7 @@ jobs:
         run: pip install njsscan
 
       - name: Run njsscan
-        run: njsscan --json --output application-static-scan-output.json
+        run: njsscan Yuvaranjani123/django.nv --json --output application-static-scan-output.json
         
         continue-on-error: true
 
