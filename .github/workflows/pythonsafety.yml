@@ -1,6 +1,11 @@
 name: Node.JS Testing Workflow
 
-on: [push]
+on: 
+ push:
+  branches:
+   - main
+  paths:
+   - pythonsafety.yml
 
 jobs:
   build:
