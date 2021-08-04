@@ -3,6 +3,8 @@ django.nV
 
 django.nV is a purposefully vulnerable Django application provided by [nVisium](https://www.nvisium.com/).
 
+
+
 ### System Requirements & Setup 
 
 First, make sure Python 3.4+ is installed on your machine. On OSX, this can be installed with Homebrew (eg. `brew install python3`). If you receive an error about conflicting PYTHONPATH, try updating the variable to reflect your python version.
